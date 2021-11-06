@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<style>
+.wrapper {
+    width:400px;
+    border-color: black;
+    border-width: 1px;
+    border-style:solid;
+    margin: 20px auto
+
+}
+.formWrap {
+    background-color: orange;
+    padding: 10px
+}
+.chat {
+    padding: 0 5px
+}
+#chat-list {
+    height: 150px
+}
+.formWrap form button {
+    width: 80px
+}
+.formWrap form input {
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+    padding: 0 5px;
+}
+.formWrap form {
+  display: flex;
+}
+ul {
+  list-style: none;
+ border-bottom: 1px solid lightgrey;
+  margin: 0;
+  padding: 0;
+    overflow-y: scroll;
+  background-color: orangered
+
+}
+
+li {
+  padding: 10px 10px 10px 10px;
+  line-height: 0;
+}
+.roomSig {
+    width: 200px
+}
+table{
+      border: 3px solid rgb(0, 0, 0);
+      float: left;
+    }
+td{
+    border: 1px solid rgb(0, 0, 0);
+    width: 3vw;
+    height: 3vw;
+       
+    text-align: center;
+
+
+}
+
+</style>
+<body>
+
+
+<div id= "roomSig" class="roomSig">Room: Lobby</div>
+<div id= "occ" class="roomSig"></div>
+<div id= "startSig" class="roomSig"></div>
+<button id="join room">join</button>
+
+<div id="changer"></div>
+
+<div class="wrapper">
+   
+    <ul id="chat-list"> </ul>
+    <div class="controls">
+    <div class="formWrap">
+        <form id="chat-form">
+            <input id="chat" class="chat" autocomplete=off>
+            <button id="say">say
+        </form>
+    </div>
+    </div>
+
+
+
+
+
+</div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="client.js" defer></script>
+
+
+
+
+

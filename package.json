@@ -1,0 +1,42 @@
+{
+  "name": "node-game",
+  "version": "1.0.0",
+  "description": "node game",
+  "main": "server/server.js",
+  "dependencies": {
+    "accepts": "^1.3.7",
+    "base64-arraybuffer": "^1.0.1",
+    "base64id": "^2.0.0",
+    "component-emitter": "^1.3.0",
+    "cookie": "^0.4.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "engine.io": "^6.0.0",
+    "engine.io-parser": "^5.0.1",
+    "mime-db": "^1.50.0",
+    "mime-types": "^2.1.33",
+    "ms": "^2.1.2",
+    "negotiator": "^0.6.2",
+    "object-assign": "^4.1.1",
+    "randomcolor": "^0.6.2",
+    "socket.io": "^4.3.1",
+    "socket.io-adapter": "^2.3.2",
+    "socket.io-parser": "^4.0.4",
+    "vary": "^1.1.2",
+    "ws": "^8.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamadmanGD/ultimate-tic-tac-toe"
+  },
+  "keywords": [
+    "console.log('a",
+    "user",
+    "connected');"
+  ],
+  "author": "});",
+  "license": "UNLICENSED"
+}
